@@ -10,22 +10,31 @@
   />
   <style>
     body {
-      background: linear-gradient(135deg, #1A2637 0%, #4A5A6A 100%);
-      color: #f5f5f5;
+      background: linear-gradient(135deg, #4A90E2 0%, #9013FE 100%);
+      color: #f0f0f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
     .card {
-      background-color: rgba(255, 255, 255, 0.05);
-      color: #f5f5f5;
+      background-color: rgba(0, 0, 0, 0.15);
+      color: #f0f0f0;
       border: none;
     }
     .navbar, footer {
-      background-color: #224466;
+      background-color: rgba(0, 0, 0, 0.4);
+      backdrop-filter: saturate(180%) blur(20px);
     }
-    .nav-link, .navbar-brand {
-      color: #f5f5f5 !important;
+    .nav-link {
+      color: #f0f0f0 !important;
+      font-weight: 500;
     }
     .nav-link.active {
-      font-weight: 600;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+    footer small {
+      color: #dcdcdc;
     }
   </style>
 </head>
@@ -56,29 +65,29 @@
   </nav>
 
   <!-- About Section -->
-  <section class="container my-5">
+  <section class="container my-5 flex-grow-1">
     <h2 class="mb-5 text-center fw-bold">About BoostifyUI</h2>
     <div class="row g-5">
       <div class="col-md-6">
         <div class="card p-4 shadow-sm h-100">
-          <h5 class="card-title mb-3 text-primary">Our Mission</h5>
+          <h5 class="card-title mb-3 text-info">Our Mission</h5>
           <p class="card-text">
-            BoostifyUI aims to empower developers and designers to build beautiful, functional, and responsive websites effortlessly using Bootstrap 5. Our mission is to showcase how modular, scalable UI components can be combined for versatile applications.
+            BoostifyUI empowers developers and designers to build beautiful, functional, and responsive websites effortlessly with Bootstrap 5. We aim to demonstrate the power and flexibility of modular UI components for versatile applications.
           </p>
           <p>
-            We focus on clean code, modern design, and accessibility across devices.
+            Our focus is on clean code, accessibility, and modern design principles.
           </p>
         </div>
       </div>
       <div class="col-md-6">
         <div class="card p-4 shadow-sm h-100">
-          <h5 class="card-title mb-3 text-primary">What We Offer</h5>
+          <h5 class="card-title mb-3 text-info">What We Offer</h5>
           <ul class="list-unstyled fs-5">
             <li>✓ Mobile-first responsive grid layouts</li>
-            <li>✓ Pre-designed, customizable UI components</li>
+            <li>✓ Customizable and reusable UI components</li>
             <li>✓ Cross-browser and device compatibility</li>
-            <li>✓ Clean typography and spacing for readability</li>
-            <li>✓ Real-world example of Bootstrap 5 usage</li>
+            <li>✓ Clean typography and consistent spacing</li>
+            <li>✓ Real-world Bootstrap 5 application</li>
           </ul>
         </div>
       </div>
