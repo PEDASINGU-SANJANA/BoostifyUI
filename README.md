@@ -16,36 +16,36 @@ BoostifyUI is a simple and modern responsive web UI project built using Bootstra
 - HTML5
 - CSS3 (via Bootstrap 5 CDN)
 - Bootstrap 5 components and utility classes
-- Git for version control
-- GitHub Pages / Netlify for deployment (optional)
+- GitHub repository for source code hosting
+- GitHub Pages for deployment
 
 ## Setup and Usage
-1. Clone or download this repository.
-2. Open the HTML files (`index.html`, `about.html`, `contact.html`) in your web browser.
-3. Navigate between pages using the navbar.
-4. To deploy, push to a GitHub repository and enable GitHub Pages or use Netlify.
+1. The HTML files (`index.html`, `about.html`, `contact.html`) were created in VS code and was uploaded to a GitHub repository.
+2. The site was deployed using GitHub Pages connected to the repository.
+3. To view the website, navigate to the GitHub Pages site URL linked from the repository settings.
+4. Navigation between pages is possible via the navbar on each page.
 
 ## Challenges and Solutions
-- **Learning to combine Bootstrap components:** Instead of copying examples, the project involved remixing components to build original pages.
-- **Ensuring responsiveness:** Tested on various screen sizes, adjusting utility classes for layout and spacing.
-- **Form design:** Created a simple contact form using Bootstrap, ensuring accessibility and validation requirements.
+- **Learning to combine Bootstrap components:** Instead of copying examples, components were remixed to build original pages.
+- **Ensuring responsiveness:** Pages were tested on various devices using browser dev tools; utility classes were adjusted accordingly.
+- **Form design:** Created a clean contact form using Bootstrap components with validation where applicable.
 
 ## Learning Outcomes
 - Improved understanding of Bootstrap 5's grid system and utility classes.
 - Hands-on experience remixing UI components to design cohesive pages.
 - Practical knowledge in responsive web design and cross-device testing.
-- Version control and deployment basics using Git and GitHub Pages/Netlify.
+- Experience with GitHub for code hosting and GitHub Pages for deployment without local git usage.
 
-## Time Taken
-Approximately XX hours/days (update as applicable).
+## Time taken
+- 30 mins
 
 ## External Resources and Help
 - Bootstrap 5 official documentation and examples
-- ChatGPT for guidance on coding and best practices
-- Online tutorials on responsive design and deployment
+- Perplexity for coding guidance and best practices
+- Online tutorials on responsive design and GitHub Pages deployment
 
 ## License
-This project is for educational purposes and is available for modification and sharing with attribution.
+This project is for educational purposes and open for modification and sharing with attribution.
 
 ---
 
