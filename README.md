@@ -37,7 +37,7 @@ BoostifyUI is a simple and modern responsive web UI project built using Bootstra
 - Experience with GitHub for code hosting and GitHub Pages for deployment without local git usage.
 
 ## Time taken
-- 30 mins
+- Approximately 1 hour.
 
 ## External Resources and Help
 - Bootstrap 5 official documentation and examples
