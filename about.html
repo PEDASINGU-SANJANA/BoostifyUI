@@ -3,17 +3,37 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MySite - About</title>
+  <title>About BoostifyUI</title>
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
     rel="stylesheet"
   />
+  <style>
+    body {
+      background: linear-gradient(135deg, #1A2637 0%, #4A5A6A 100%);
+      color: #f5f5f5;
+    }
+    .card {
+      background-color: rgba(255, 255, 255, 0.05);
+      color: #f5f5f5;
+      border: none;
+    }
+    .navbar, footer {
+      background-color: #224466;
+    }
+    .nav-link, .navbar-brand {
+      color: #f5f5f5 !important;
+    }
+    .nav-link.active {
+      font-weight: 600;
+    }
+  </style>
 </head>
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
     <div class="container">
-      <a class="navbar-brand" href="#">MySite</a>
+      <a class="navbar-brand fw-bold" href="#">BoostifyUI</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -26,7 +46,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto fw-semibold">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
           <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
@@ -37,35 +57,38 @@
 
   <!-- About Section -->
   <section class="container my-5">
-    <h2 class="mb-4 text-center">About Us</h2>
-    <div class="row g-4">
+    <h2 class="mb-5 text-center fw-bold">About BoostifyUI</h2>
+    <div class="row g-5">
       <div class="col-md-6">
-        <div class="card p-3 h-100">
-          <div class="card-body">
-            <h5 class="card-title">Our Mission</h5>
-            <p class="card-text">
-              Describe your project's mission and values here. Provide a brief overview of your goals.
-            </p>
-          </div>
+        <div class="card p-4 shadow-sm h-100">
+          <h5 class="card-title mb-3 text-primary">Our Mission</h5>
+          <p class="card-text">
+            BoostifyUI aims to empower developers and designers to build beautiful, functional, and responsive websites effortlessly using Bootstrap 5. Our mission is to showcase how modular, scalable UI components can be combined for versatile applications.
+          </p>
+          <p>
+            We focus on clean code, modern design, and accessibility across devices.
+          </p>
         </div>
       </div>
       <div class="col-md-6">
-        <div class="card p-3 h-100">
-          <div class="card-body">
-            <h5 class="card-title">Our Services</h5>
-            <p class="card-text">
-              Highlight the main services or features your project offers to users or clients.
-            </p>
-          </div>
+        <div class="card p-4 shadow-sm h-100">
+          <h5 class="card-title mb-3 text-primary">What We Offer</h5>
+          <ul class="list-unstyled fs-5">
+            <li>✓ Mobile-first responsive grid layouts</li>
+            <li>✓ Pre-designed, customizable UI components</li>
+            <li>✓ Cross-browser and device compatibility</li>
+            <li>✓ Clean typography and spacing for readability</li>
+            <li>✓ Real-world example of Bootstrap 5 usage</li>
+          </ul>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-light text-center py-3 mt-5">
+  <footer class="text-center py-4 border-top">
     <div class="container">
-      <span class="text-muted">© 2025 MySite. All rights reserved.</span>
+      <small>© 2025 BoostifyUI. All rights reserved.</small>
     </div>
   </footer>
 
